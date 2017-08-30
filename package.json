@@ -1,0 +1,21 @@
+{
+  "name": "FirstMithrilProject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "FirstMithrilProject": "app.js"
+  },
+  "scripts": {
+    "start" : "webpack src/index.js bin/app.js -d --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "mithril": "^1.1.3"
+  },
+  "devDependencies": {
+    "webpack": "^3.5.5"
+  }
+}
